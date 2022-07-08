@@ -1,0 +1,31 @@
+@media screen and (max-width: 1100px) {
+  html {
+    font-size: 60%;
+  }
+
+  .get-app .buttons {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+  }
+
+  .get-app img {
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cellphone {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cellphone {
+    display: none;
+  }
+
+  .container-login {
+    margin-right: 0;
+  }
+}
